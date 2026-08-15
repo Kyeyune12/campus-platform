@@ -1,0 +1,37 @@
+# Java
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# .NET
+bin/
+obj/
+*.user
+project.lock.json
+artifacts/
+
+# IDE
+.idea/
+*.iml
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment and secrets — NEVER commit these
+.env
+.env.local
+*.pem
+*.key
+appsettings.Development.json
+application-local.properties
+
+# Build output and logs
+logs/
+*.log
